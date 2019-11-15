@@ -76,5 +76,5 @@ def team_colors(team_name)
       end
 
 def team_names(teams)
-  teams = [:team_name]
+  teams = game_hash[:team_name]
 end
