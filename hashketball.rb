@@ -79,3 +79,4 @@ def team_names(teams)
   games_hash.each do |place, team_hash|
     return team_hash[:team_name]
     end
+  end
