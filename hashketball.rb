@@ -77,7 +77,8 @@ def team_colors(team_name)
 
 def team_names(teams)
   games_hash.each do |place, team_data|
-    binding.pry
+    
     return team_data[:team_name]
+    binding.pry
     end
   end
