@@ -78,4 +78,4 @@ def team_colors(team_name)
 def team_names(teams)
   teams = team_names
     end
-  end
+
