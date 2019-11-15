@@ -76,7 +76,7 @@ def team_colors(team_name)
       end
 
 def team_names(teams)
-  games_hash.each do |place, team_hash|
-    return team_hash[:team_name]
+  games_hash.each do |place, team_data|
+    return team_data[:team_name]
     end
   end
