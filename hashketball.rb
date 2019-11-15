@@ -76,5 +76,5 @@ def team_colors(team_name)
       end
 
 def team_names(teams)
-  teams = team_names
+  teams = [:team_names]
     end
